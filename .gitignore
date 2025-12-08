@@ -1,0 +1,22 @@
+# 忽略 Python 编译产生的缓存
+__pycache__/
+*.pyc
+
+# 忽略 Jupyter Notebook 的检查点
+.ipynb_checkpoints
+
+# 忽略大数据集和模型权重 (这点最重要！)
+*.pth
+*.pt
+*.ckpt
+*.pkl
+data/
+dataset/
+runs/
+results/
+wandb/
+
+# 忽略视频和图片结果
+*.mp4
+*.gif
+*.png
